@@ -1,0 +1,53 @@
+body{
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  text-align: center;
+  transition: all 600ms ease;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beach-quotes-1559667853.jpg");
+  background-position: center;
+  background-size: cover;
+  //background: linear-gradient(to right, #1d2b64, #f8cdda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+img{
+  height: 475px;
+  border-radius: 15px;
+}
+.card{
+  background: linear-gradient(to bottom, #c0c0aa77, #1cf0ffa8);
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 8px 8px #c0bebe;*/
+}
+
+a{
+  color: rgb(169, 5, 219);
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: .5;
+}
+
+.dark
+{
+  background-image: url("https://sgl-assets.imgix.net/files/article_hero/northern-lights-aurora-borealis-fairbanks-alaska-via-magazine-aaa-bucket-list-experience-shutterstock_695456167.jpg?w=1440&h=720&crop=faces,edges");
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+
+
+}
+.dark .card 
+{
+  background:linear-gradient(to top, #43c6acbd, #19165449);
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow:8px 8px #1d2b64;
+}
