@@ -34,6 +34,10 @@ a:hover{
   opacity: .5;
 }
 
+.socails > a{
+  padding: 0px 16px;
+}
+
 .dark
 {
   background-image: url("https://sgl-assets.imgix.net/files/article_hero/northern-lights-aurora-borealis-fairbanks-alaska-via-magazine-aaa-bucket-list-experience-shutterstock_695456167.jpg?w=1440&h=720&crop=faces,edges");
@@ -50,4 +54,17 @@ a:hover{
   padding: 16px;
   border-radius: 4px;
   box-shadow:8px 8px #1d2b64;
+}
+
+.form{
+  font-family: fantasy;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #556f86;
+  padding: 13px;
+  margin: 15px 0px;
+  width: 100%;
 }
